@@ -8788,3 +8788,107 @@ button.close {
     display: none !important;
   }
 }
+/* line 1, ../sass/partials/_nav.sass */
+.header {
+  position: fixed;
+  height: 90px;
+  opacity: 1;
+  top: 0;
+  z-index: 4;
+  width: 100%;
+  -webkit-transition: height 400ms ease, top 400ms ease 200ms, opacity 200ms ease;
+  -moz-transition: height 400ms ease, top 400ms ease 200ms, opacity 200ms ease;
+  transition: height 400ms ease, top 400ms ease 200ms, opacity 200ms ease;
+  overflow: hidden;
+}
+
+/* line 13, ../sass/partials/_nav.sass */
+.header .menu ul li a {
+  -webkit-text-size-adjust: 100%;
+  padding: 32px 0 36px;
+  color: #FFF;
+  font-size: 18px;
+  display: block;
+  border-top: 4px solid transparent;
+  -moz-transition: padding 0.4s ease;
+  -o-transition: padding 0.4s ease;
+  -webkit-transition: padding 0.4s ease;
+  transition: padding 0.4s ease;
+  opacity: 0.5;
+}
+
+/* line 27, ../sass/partials/_nav.sass */
+ol, ul {
+  list-style: none;
+}
+
+/* line 30, ../sass/partials/_nav.sass */
+div {
+  display: block;
+}
+
+/* line 33, ../sass/partials/_nav.sass */
+.header .menu ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+/* line 37, ../sass/partials/_nav.sass */
+.header .menu {
+  z-index: 1;
+  text-align: right;
+}
+
+/* line 42, ../sass/partials/_nav.sass */
+#menu-top {
+  background-color: #191E28 !important;
+  height: 90px;
+}
+
+/* line 47, ../sass/partials/_nav.sass */
+.wrapper {
+  width: 960px;
+}
+
+/* line 50, ../sass/partials/_nav.sass */
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 55, ../sass/partials/_nav.sass */
+.wrapper {
+  width: 960px;
+}
+
+/* line 58, ../sass/partials/_nav.sass */
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 62, ../sass/partials/_nav.sass */
+.header.about .menu {
+  text-align: center;
+}
+
+/* line 65, ../sass/partials/_nav.sass */
+.header .menu {
+  z-index: 1;
+  text-align: right;
+}
+
+/* line 70, ../sass/partials/_nav.sass */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, nav, output, ruby, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* line 78, ../sass/partials/_nav.sass */
+.header.about {
+  background-color: transparent;
+}

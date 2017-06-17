@@ -10,68 +10,28 @@
 </head>
 
 <body>
-  <header id="topNav">
-    <div class="inner">
-       <nav role="navigation">
+  <header class="header about" id="menu-top">
+    <div class="wrapper inner">
+       <nav class="menu" role="navigation">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li ng-repeat="item in routes" ng-click="clickOnAbout($event, item)" class="page ng-scope active" ng-class="{ active : selected == item.name }">
+            <a ui-sref="home({ lang : 'en' })" class="ng-binding" href="#!/en">Home</a>
+          </li>
+          <li ng-repeat="item in routes" ng-click="clickOnAbout($event, item)" class="page ng-scope active" ng-class="{ active : selected == item.name }">
+            <a ui-sref="home({ lang : 'en' })" class="ng-binding" href="#!/en">About</a>
+          </li>
+          <li ng-repeat="item in routes" ng-click="clickOnAbout($event, item)" class="page ng-scope active" ng-class="{ active : selected == item.name }">
+            <a ui-sref="home({ lang : 'en' })" class="ng-binding" href="#!/en">Projects</a>
+          </li>
+          <li ng-repeat="item in routes" ng-click="clickOnAbout($event, item)" class="page ng-scope active" ng-class="{ active : selected == item.name }">
+            <a ui-sref="home({ lang : 'en' })" class="ng-binding" href="#!/en">Contact</a>
+          </li>
+
         </ul>
       </nav>
     </div>
   </header>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4 text-center">
-           <h1>Time to do something cool</h1>
-           <p>This was centered here because its in a col-4 block
-           which means that the sass bootstrap is working yayyyya</p>
-      </div>
-    </div>
-
-     <section>
-      <div class="row">
-        <div class="col-lg-11 text-center">
-          <h1>About</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Esse ex consectetur eos voluptates dolorum in quia
-          umque, et aliquam explicabo quam itaque necessitatibus
-          deserunt numquam corporis omnis illum inventore quidem.</p>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="row">
-        <div class="col-lg-11 text-center">
-          <h1>Projects</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Esse ex consectetur eos voluptates dolorum in quia
-          umque, et aliquam explicabo quam itaque necessitatibus
-          deserunt numquam corporis omnis illum inventore quidem.</p>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="row">
-        <div class="col-lg-11 text-center">
-          <h1>Contacts</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Esse ex consectetur eos voluptates dolorum in quia
-          umque, et aliquam explicabo quam itaque necessitatibus
-          deserunt numquam corporis omnis illum inventore quidem.</p>
-        </div>
-      </div>
-
-  </div>
-
-  <footer>
-
-  </footer>
 </body>
 
 </html>
