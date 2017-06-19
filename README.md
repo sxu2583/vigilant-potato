@@ -1,4 +1,16 @@
-# vigilant-potato
-A redesigned version of my current portfolio website using sass and compass along with it.
+1. Find the general feel for the website  <br />
 
-![Potato](https://68.media.tumblr.com/1b4a14c1513fda41ab9ff8d460a38bc6/tumblr_n27ushFzOa1tq4r2vo1_500.gif)
+2. Create a sketch or diagram of the entire site   <br /> 
+
+3. Find out what projects to add  <br />
+
+4. Write up all the text that will be on the page  <br />
+
+5. Get all the images ready  <br />
+
+6. Set as the new portfolio site  <br />
+
+The point of this new website is to focus on sass but as well
+as a min design.  <br />
+
+![alt text](http://imgur.com/Ac3YLIA)
