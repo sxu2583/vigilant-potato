@@ -1,0 +1,53 @@
+/*Basic typogrpahy this is a partial*/
+body{
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: chaparral-pro,sans-serif!important;
+    height: 100%!important;
+    background-color: #3D4351(!important);
+}
+
+h1 ,h2, h3 {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+div{
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+p{
+  color: #777;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 18px;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  box-sizing: inherit;
+  margin: 0 0 10px;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li{
+  color: white;
+}
+/*Typo ends here*/
+
