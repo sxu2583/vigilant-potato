@@ -18,6 +18,7 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
 </head>
 
@@ -26,6 +27,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
+    <!--The background color is dependent on the color given to the introduction section -->
     <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
@@ -57,6 +59,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a>Resume</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -66,13 +71,13 @@
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                   <h1>Splash Page</h1>
-                </div>
+            <!--This is the snow effect-->
+           <canvas id="canvas"></canvas>
+            <div class="center">
+              <div class="text-center">
+                <h1 id="snow">Samossas in the snow...</h1>
+              </div>
             </div>
-        </div>
     </section>
 
     <!-- About Section -->
@@ -193,6 +198,7 @@
 
 
     <!-- jQuery -->
+    <script src="scripts.js"></script>
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
