@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
 
 </head>
 
@@ -25,7 +26,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -39,7 +40,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
@@ -48,10 +49,10 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Project</a>
+                        <a class="page-scroll" href="#project">Project</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#brainstorm">Brainstorming?</a>
+                        <a class="page-scroll" href="#brainstorm">Brainstorming</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -77,15 +78,9 @@
     <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container">
-            <div class="row">
+            <div id="startchange" class="row">
                 <div class="col-lg-12">
                     <h1>About Section</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt quaerat reprehenderit tempora molestias distinctio dolore impedit, beatae voluptas sint repellendus, vero expedita molestiae non ipsam quisquam officia. Ipsam, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aspernatur alias modi facere. Dolorum voluptate illum perspiciatis quisquam quasi sit distinctio velit facilis, quo quam, modi non error hic ipsum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt quaerat reprehenderit tempora molestias distinctio dolore impedit, beatae voluptas sint repellendus, vero expedita molestiae non ipsam quisquam officia. Ipsam, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aspernatur alias modi facere. Dolorum voluptate illum perspiciatis quisquam quasi sit distinctio velit facilis, quo quam, modi non error hic ipsum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt quaerat reprehenderit tempora molestias distinctio dolore impedit, beatae voluptas sint repellendus, vero expedita molestiae non ipsam quisquam officia. Ipsam, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aspernatur alias modi facere. Dolorum voluptate illum perspiciatis quisquam quasi sit distinctio velit facilis, quo quam, modi non error hic ipsum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt quaerat reprehenderit tempora molestias distinctio dolore impedit, beatae voluptas sint repellendus, vero expedita molestiae non ipsam quisquam officia. Ipsam, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aspernatur alias modi facere. Dolorum voluptate illum perspiciatis quisquam quasi sit distinctio velit facilis, quo quam, modi non error hic ipsum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt quaerat reprehenderit tempora molestias distinctio dolore impedit, beatae voluptas sint repellendus, vero expedita molestiae non ipsam quisquam officia. Ipsam, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aspernatur alias modi facere. Dolorum voluptate illum perspiciatis quisquam quasi sit distinctio velit facilis, quo quam, modi non error hic ipsum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt quaerat reprehenderit tempora molestias distinctio dolore impedit, beatae voluptas sint repellendus, vero expedita molestiae non ipsam quisquam officia. Ipsam, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aspernatur alias modi facere. Dolorum voluptate illum perspiciatis quisquam quasi sit distinctio velit facilis, quo quam, modi non error hic ipsum.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt quaerat reprehenderit tempora molestias distinctio dolore impedit, beatae voluptas sint repellendus, vero expedita molestiae non ipsam quisquam officia. Ipsam, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aspernatur alias modi facere. Dolorum voluptate illum perspiciatis quisquam quasi sit distinctio velit facilis, quo quam, modi non error hic ipsum.</p>
                 </div>
             </div>
@@ -93,11 +88,83 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="project-section">
+    <section id="project" class="project-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Projects Section</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                 <h2>Modal 1</h2>
+                  <!-- Trigger the modal with a button -->
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Some text in the modal.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Modal 2</h2>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                      <div class="modal-dialog">
+                          <!-- Modal content-->
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Modal Header</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>Some text in the modal.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Modal 3</h2>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                      <div class="modal-dialog">
+                          <!-- Modal content-->
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Modal Header</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>Some text in the modal.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
