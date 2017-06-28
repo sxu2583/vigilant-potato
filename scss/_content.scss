@@ -10,7 +10,46 @@
 }
 
 #footer-color {
-    background-color: #bf2227;
+    background-color: black;
     color: white;
     font-size: 18px;
+}
+
+.footer-copyright{
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+}
+
+footer .footer-above{
+    padding-top: 50px;
+}
+
+footer .footer-below{
+    padding: 25px 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+footer .footer-col{
+    margin-bottom: 50px;
+}
+
+footer h3{
+    margin-bottom: 30px;
+}
+
+.credits {
+    border-top: 1px solid #BBBBBB;
+    margin-top: 10px;
+    padding: 20px 0 15px;
+    text-align: center;
+    color: #EEE;
+}
+
+.heart{
+    color: red;
 }
