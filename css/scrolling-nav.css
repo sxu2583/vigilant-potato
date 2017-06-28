@@ -26,21 +26,35 @@ html {
 /**********************************************/
 /*The div section should be classed down bellow*/
 /**********************************************/
-
-.intro-section, .project-section, .skillset-section {
-    min-height: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-    background: #eee;
+#navbar{
+    border-bottom: none;
 }
 
-.about-section, .brainstorm-section {
+.intro-section{
+    min-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: black;
+    border-top: 4px solid black;
+}
+
+.about-section, .brainstorm-section,.project-section, .skillset-section{
+    min-height: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #eee;
+    border-top: 4px solid black;
+}
+
+.footer-section{
     min-height: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
     background: #eee;
+    border-top: 4px solid black;
 }
 
 
