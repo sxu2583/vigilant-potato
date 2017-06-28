@@ -27,7 +27,7 @@ html {
 /*The div section should be classed down bellow*/
 /**********************************************/
 
-.intro-section, .project-section {
+.intro-section, .project-section, .skillset-section {
     min-height: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
