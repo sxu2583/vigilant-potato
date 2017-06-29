@@ -10,7 +10,7 @@
 }
 
 #footer-color {
-    background-color: black;
+    background-color: #3D4351;
     color: white;
     font-size: 18px;
 }
@@ -52,4 +52,20 @@ footer h3{
 
 .heart{
     color: red;
+}
+
+.big-seperator{
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 48px;
+    padding: 35px 0;
+    background-color: #f07269;
+    color: #fff;
+    font-family: chaparral-pro,sans-serif;
+    text-decoration: none;
+}
+
+.big-color{
+   /* background-color:#F1736A;*/
 }
