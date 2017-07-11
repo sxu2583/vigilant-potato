@@ -121,5 +121,8 @@ $(function() {
     });
 });
 
+/*This should remove the navbar highlighting*/
+$('li').click(function(){
+     $(this).removeClass('active');
+});
 
-/*THis is for the skillset*/

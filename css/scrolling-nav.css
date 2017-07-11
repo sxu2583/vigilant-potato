@@ -84,7 +84,6 @@ html {
 }
 
 .active{
-    opacity: 1;
     border-top: 2px solid white;
 }
 
