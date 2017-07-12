@@ -13,4 +13,4 @@
 The point of this new website is to focus on sass but as well
 as a min design.  <br />
 
-![alt text](http://imgur.com/Ac3YLIA)
+
