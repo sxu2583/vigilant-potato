@@ -4,7 +4,7 @@
 .parallax {
   /* The image used */
   /*Insert the image needed below*/
-  background-image: url("../images/splash.jpg");
+  background-image: url("images/city.jpg");
   background-size: contain;
   /* Set a specific height */
   min-height: 100%;
@@ -221,6 +221,32 @@ canvas {
   color: #ffffff;
   background: #583862; }
 
+/*For the chevron*/
+#chevron {
+  display: none; }
+
+a.scroll-up {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  color: #ED5A64;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  width: 45px;
+  height: 44px;
+  text-align: center;
+  padding-top: 9px;
+  z-index: 1000;
+  transition-duration: 0.5s;
+  background-color: #2F4254;
+  border-radius: 50%; }
+
+a, a:focus, a:hover {
+  outline: 0 none;
+  text-decoration: none; }
+
+/*For the figcaptions*/
 /*Basic typogrpahy this is a partial*/
 body {
   margin: 0;

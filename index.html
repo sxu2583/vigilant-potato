@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="awesome/css/font-awesome.css">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -25,14 +26,12 @@
     <link rel="stylesheet" type="text/css" href="css/component.css"/>
     -->
 
-    <script src="https://use.fontawesome.com/837694cfc8.js"></script>
-
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+    <a id="chevron" href="#" class="scroll-up scroll back-to-top" style="display: block;"><i class="fa fa-chevron-up"></i></a>
     <!-- Navigation -->
     <!--The background color is dependent on the color given to the introduction section -->
     <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -93,8 +92,8 @@
     -->
 
     <div class="container-fluid aa_sec text-center">
-       <div class="row">
-           <div class="col-lg-12">
+       <div class="row-fluid">
+           <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="aa_txt">
                     <span class="aa_inner">
                         Shihab <span class="aa_of">The</span> Uddin
@@ -102,16 +101,14 @@
                 </div>
            </div>
        </div>
-       <div class="row">
+       <div class="row-fluid">
            <div class="col-lg-12">
                <p id="startchange"></p>
            </div>
        </div>
-       <div class="row text-center" style="padding-top: 10%;">
-           <div class="col-lg-12">
+       <div class="row-fluid text-center" style="padding-top: 10%;">
+           <div class="col-lg-12 col-md-12 col-sm-12">
                 <section id="section10" class="demo">
-                    <br>
-                    <br>
                     <a href="#about"><span></span>Scroll</a>
                 </section>
            </div>
@@ -165,7 +162,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-                    <h1>Skills</h1>
+                    <h1>Skill</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quam repellat, rem possimus porro quisquam. Praesentium nisi ipsum amet ratione eos, quasi hic iure quaerat illum eaque minima suscipit aspernatur.</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 text-center">
@@ -178,7 +175,7 @@
 
     <!--Parallax could go here?-->
 
-    <!-- Services Section -->
+    <!-- Project Section -->
     <section id="project" class="project-section content">
         <div class="container grid grid--effect-hamal">
             <div class="row">
@@ -186,11 +183,10 @@
                     <h1>Projects Section</h1>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <h2>Modal 1</h2>
-                    <!-- Trigger the modal with a button -->
-                    <!--TODO need to fix the trigger method here-->
 
                     <a href="" class="grid__item grid__item--c1" data-toggle="modal" data-target="#myModal">
                         <div class='box box-body'>
@@ -209,10 +205,12 @@
                       <div class="modal-content">
                         <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal">&times;</button>
-                          <h4 class="modal-title">Modal Header</h4>
+                          <h4 class="modal-title">Cas</h4>
                         </div>
                         <div class="modal-body">
-                          <p>Some text in the modal.</p>
+                              <p>Some text in the modal.</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptate velit nihil atque aliquam! Porro dolore autem, omnis nobis impedit in neque quae, dolorem laborum tenetur nesciunt alias rem quaerat!</p>
+                              <img class="img-responsive" src="images/city.png" alt="">
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -244,7 +242,9 @@
                               <h4 class="modal-title">Modal Header</h4>
                             </div>
                             <div class="modal-body">
-                              <p>Some text in the modal.</p>
+                                  <p>Some text in the modal.</p>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptate velit nihil atque aliquam! Porro dolore autem, omnis nobis impedit in neque quae, dolorem laborum tenetur nesciunt alias rem quaerat!</p>
+                                  <img class="img-responsive" src="images/city.png" alt="">
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -275,7 +275,9 @@
                               <h4 class="modal-title">Modal Header</h4>
                             </div>
                             <div class="modal-body">
-                              <p>Some text in the modal.</p>
+                                  <p>Some text in the modal.</p>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptate velit nihil atque aliquam! Porro dolore autem, omnis nobis impedit in neque quae, dolorem laborum tenetur nesciunt alias rem quaerat!</p>
+                                  <img class="img-responsive" src="images/city.png" alt="">
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -284,9 +286,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
+
 
             </div>
         </div>
@@ -297,8 +298,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Brainstorming Section</h1>
+                    <h1>What I do</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum similique, laboriosam. Dolorem saepe ipsa a, quaerat officia dolore consectetur beatae, nobis corporis ipsum, rem, sed possimus quibusdam tempora deleniti vel.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate sunt voluptatibus, excepturi perspiciatis numquam repudiandae natus corporis, non veniam porro accusantium minima quasi aperiam, rem sit? Quaerat dolore molestias optio.</p>
+                    <h1>My Latest Work</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit asperiores explicabo assumenda cupiditate ratione incidunt hic. Suscipit laudantium, quo nesciunt odit est numquam, molestias sunt, optio esse velit sint rem.</p>
                 </div>
             </div>
         </div>
@@ -352,9 +356,12 @@
         </div>
     </footer>
 
-
-
     <!-- jQuery -->
+
+    <!--
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    -->
+
     <script src="js/particles.js"></script>
     <script src="app.js"></script>
     <script src="scripts.js"></script>
