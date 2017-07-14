@@ -246,7 +246,7 @@ a, a:focus, a:hover {
   outline: 0 none;
   text-decoration: none; }
 
-/*For the figcaptions*/
+/*Section seperators*/
 /*Basic typogrpahy this is a partial*/
 body {
   margin: 0;
@@ -257,6 +257,7 @@ body {
   background-color: #3D4351 !important; }
 
 h1, h2, h3 {
+  font-family: 'Nunito', sans-serif;
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -293,7 +294,13 @@ li {
   color: white; }
 
 h1 {
-  font: 400 60px/1.3 'Bree Serif', Georgia, serif; }
+  font: 400 60px/1.3 'Nunito', Georgia, serif;
+  display: block;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold; }
 
 p {
   font: 400 20px/1.6 'Open Sans', Verdana, Helvetica, sans-serif; }
