@@ -76,4 +76,15 @@ footer h3{
     padding: 10px 0;
     padding-left: 45px;
     padding-right: 45px;
+    text-align: center;
+}
+
+.shadow{
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/*Second mini section*/
+.what-i-do{
+    margin: 20px 10px 20px 10px;
+    transition:all 0.3s ease;
 }

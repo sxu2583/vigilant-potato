@@ -16,10 +16,6 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
 /*Scrolling for chevron*/
 var amountScrolled = 300;
 
