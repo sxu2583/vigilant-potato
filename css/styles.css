@@ -4,15 +4,14 @@
 .parallax {
   /* The image used */
   /*Insert the image needed below*/
-  background-image: url("images/city.jpg");
+  background-image: url("images/lion.jpg");
   background-size: contain;
   /* Set a specific height */
   min-height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-repeat: no-repeat; }
 
 /*Heres the snow effect*/
 .center {
@@ -247,6 +246,7 @@ a, a:focus, a:hover {
   text-decoration: none; }
 
 /*Section seperators*/
+/*social Media*/
 /*Basic typogrpahy this is a partial*/
 body {
   margin: 0;
