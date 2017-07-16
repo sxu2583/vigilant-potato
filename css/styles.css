@@ -54,6 +54,7 @@ canvas {
   height: 100%; }
 
 /*Here is the about scrroll effect*/
+/*
 .demo a {
   left: 50%;
   z-index: 2;
@@ -61,17 +62,18 @@ canvas {
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
-  font: normal 400 20px/1 'Josefin Sans', sans-serif;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
-  transition: opacity .3s; }
-
+  transition: opacity .3s;
+}
 .demo a:hover {
-  opacity: .5; }
+  opacity: .5;
+}
 
 #section10 a {
-  padding-top: 60px; }
-
+  padding-top: 60px;
+}
 #section10 a span {
   position: absolute;
   top: 0;
@@ -81,8 +83,8 @@ canvas {
   margin-left: -15px;
   border: 2px solid #fff;
   border-radius: 50px;
-  box-sizing: border-box; }
-
+  box-sizing: border-box;
+}
 #section10 a span::before {
   position: absolute;
   top: 10px;
@@ -95,30 +97,41 @@ canvas {
   border-radius: 100%;
   -webkit-animation: sdb10 2s infinite;
   animation: sdb10 2s infinite;
-  box-sizing: border-box; }
-
+  box-sizing: border-box;
+}
 @-webkit-keyframes sdb10 {
   0% {
     -webkit-transform: translate(0, 0);
-    opacity: 0; }
+    opacity: 0;
+  }
   40% {
-    opacity: 1; }
+    opacity: 1;
+  }
   80% {
     -webkit-transform: translate(0, 20px);
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 @keyframes sdb10 {
   0% {
     transform: translate(0, 0);
-    opacity: 0; }
+    opacity: 0;
+  }
   40% {
-    opacity: 1; }
+    opacity: 1;
+  }
   80% {
     transform: translate(0, 20px);
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
+*/
 /*THis is for the skillset*/
 /*This is for the modal box*/
 .box-body {
@@ -186,11 +199,12 @@ canvas {
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   text-indent: .3em; }
 
+/*
 @keyframes drift {
-  from {
-    transform: rotate(0deg); }
-  from {
-    transform: rotate(360deg); } }
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+*/
 /*Changing up the particle effects on the hero section*/
 #aa_particles {
   z-index: 4;
@@ -395,18 +409,5 @@ footer h3 {
   transition: all 0.2s ease-in-out; }
 
 /*Basic transition effects*/
-.fade {
-  opacity: 1; }
-
-.fade:hover {
-  opacity: 0.5; }
-
-.color:hover {
-  background: #CC085E; }
-
-.thread:hover {
-  box-shadow: 1px 1px black, 2px 2px black, 3px 3px black;
-  -webkit-transform: translateX(-3px);
-  transform: translateX(-3px); }
 
 /*# sourceMappingURL=styles.css.map */
