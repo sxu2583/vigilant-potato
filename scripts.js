@@ -33,3 +33,6 @@ $('a.back-to-top').click(function() {
   }, 700);
   return false;
 });
+
+
+console.log("Hey there, hope you liked the site. If you're here cause you saw something you liked ;) feel free to send me a message")
