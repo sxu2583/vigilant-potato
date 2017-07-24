@@ -102,3 +102,15 @@ footer h3{
     bottom: 0;
     transition: all 0.2s ease-in-out;
 }
+
+/*For the terminal*/
+.column {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.shell {
+    display: inline-block;
+    height: 250px;
+    width: 90%;
+}
