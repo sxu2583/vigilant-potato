@@ -275,12 +275,12 @@ a, a:focus, a:hover {
 }
 
 .accessibility {
-  letter-spacing: -.05em;
+  letter-spacing: .05em;
   font-weight: 300;
   -webkit-transform:
       scale(1.4, 1.33)
       rotate(90deg)
-      translate(4.1em, -18.0em);
+      translate(5.65em, -18.0em);
   -moz-transform:
       scale(1.4, 1.33)
       rotate(90deg)
@@ -310,13 +310,13 @@ a, a:focus, a:hover {
       translate(7.14em, 3.55em);
 }
 
-.ajax {
+.bootstrap {
   letter-spacing: -0.01em;
   font-weight: 700;
   -webkit-transform:
       scale(2.4, 2.3)
       rotate(90deg)
-      translate(6em, -5.8em);
+      translate(6.3em, -5.8em);
   -moz-transform:
       scale(2.4, 2.3)
       rotate(90deg)
@@ -360,7 +360,7 @@ a, a:focus, a:hover {
 
 .wordpress {
   font-weight: 300;
-  letter-spacing: -0.05em;
+  letter-spacing: 0.09em;
   -webkit-transform:
       scale(2.75, 3)
       translate(1.72em, 4.95em);
@@ -380,9 +380,9 @@ a, a:focus, a:hover {
       translate(6.05em, .95em);
 }
 
-.crossbrowser {
+.django {
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.3em;
   word-spacing: .2em;
   -webkit-transform:
       scale(2)
@@ -404,7 +404,7 @@ a, a:focus, a:hover {
       translate(12.7em, 8.6em);
 }
 
-.jg {
+.coffee {
   color: #ee5d29;
   font-weight: 700;
   letter-spacing: -.03em;
@@ -448,6 +448,25 @@ a, a:focus, a:hover {
 /*Timeline*/
 
 /*Terminal*/
+#container-term {
+    height: 100%;
+    width: 100%;
+}
 
+.row-term {
+    clear: both;
+}
+
+.column-term {
+    text-align: center;
+    width: 50%;
+    float: center;
+}
+
+.shell {
+    display: inline-block;
+    height: 250px;
+    width: 90%;
+}
 
 
